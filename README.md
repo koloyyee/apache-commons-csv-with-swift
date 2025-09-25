@@ -153,7 +153,7 @@ copy size.csv to Resources
 
 ## Use Apache Commons CSV in Swift
 ```swift
-Import our packages 
+// Import our packages 
 
 import Foundation
 import SwiftJava
