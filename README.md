@@ -2,16 +2,17 @@
 
 
 ## Create CommonsCsv project
-
+```sh
 mkdir CommonsCsv
 cd CommonsCsv
 swift package init --name CommonsCsv --type executable
+```
 
 ## Add CommonsCsv Module and swift-java.config
-
+```sh
 mkdir -p Sources/CommonsCsv
-<!-- touch Sources/CommonsCsv/Csv.swift -->
-touch Sources/CommonsCsv/swift-java.config
+`touch Sources/CommonsCsv/swift-java.config
+```
 
 ## Add dependencies
 
