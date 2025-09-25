@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:CommonsCsv}",
+      "name": "Debug CommonsCsv",
+      "program": "${workspaceFolder:CommonsCsv}/.build/debug/CommonsCsv",
+      "preLaunchTask": "swift: Build Debug CommonsCsv"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:CommonsCsv}",
+      "name": "Release CommonsCsv",
+      "program": "${workspaceFolder:CommonsCsv}/.build/release/CommonsCsv",
+      "preLaunchTask": "swift: Build Release CommonsCsv"
+    }
+  ]
+}
