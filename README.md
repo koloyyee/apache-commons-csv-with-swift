@@ -15,10 +15,13 @@ touch Sources/CommonsCsv/swift-java.config
 
 ## Add dependencies
 
+```sh
 swift package add-dependency https://github.com/swiftlang/swift-java --branch main
+```
 
-Update Package.swift
 
+### Update Package.swift
+```swift
 import CompilerPluginSupport
 import PackageDescription
 
@@ -91,8 +94,9 @@ let package = Package(
         )
     ]
 )
+```
 
-Update swift-java.config
+### Update swift-java.config
 ```json
 {
   "classes" : {
@@ -183,5 +187,17 @@ struct CommonsCsv {
 }
 ``` 
 
-Now try it with 
-`swift run`
+### Now try it with 
+```sh
+swift run 
+# if you have any trouble use 
+swift package clean && swift run --disable-sandbox
+
+# Profit
+[”Size”, “Abbreviated Size”]
+[”Extra Small”, “XS”]
+[”Small”, “S”]
+[”Medium”, “M”]
+[”Large”, “L”]
+[”Extra Large”, “XL”]
+```
