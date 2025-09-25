@@ -97,7 +97,10 @@ let package = Package(
 )
 ```
 
-### Update swift-java.config
+### Create and Update swift-java.config
+```sh 
+touch Sources/CommonsCsv/swift-java.config
+```
 ```json
 {
   "classes" : {
